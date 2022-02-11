@@ -2,7 +2,7 @@ import React from "react";
 import { StyleSheet, Text, View, Button } from "react-native";
 import { Picker } from "@react-native-picker/picker";
 import { GOOGLE, verifierMap } from "./config";
-import CustomAuth from "@toruslabs/customauth-react-native-sdk";
+import CustomAuth from "@rtistor/customauth-react-native-sdk";
 
 export default class App extends React.Component {
   state = { selectedVerifier: GOOGLE, loginHint: "", consoleText: "" };

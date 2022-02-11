@@ -1,7 +1,7 @@
 {
-  "name": "@toruslabs/customauth-react-native-sdk",
-  "version": "1.0.2",
-  "description": "React Native sdk for CustomAuth",
+  "name": "@rtistor/customauth-react-native-sdk",
+  "version": "0.0.1",
+  "description": "React Native sdk for CustomAuth forked",
   "scripts": {
     "release": "release-it",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,13 +11,13 @@
     "torus",
     "custom auth"
   ],
-  "author": "Chaitanya Potti",
+  "author": "Anandhu",
   "license": "MIT",
   "peerDependencies": {
-    "react-native": ">=0.66"
+    "react-native": ">=0.63"
   },
   "devDependencies": {
-    "react-native": "^0.66.4",
+    "react-native": "^0.63.4",
     "release-it": "^14.12.4"
   },
   "bugs": {
